@@ -12,7 +12,7 @@ Para isso, elaborei um documento de projeto que consolidava todos os pontos esse
 
 Além disso, recorri à ferramenta Figma para criar um protótipo visual do dashboard. Esse passo foi importante para pensar na disposição e hierarquia das informações desde o início, garantindo que a apresentação dos dados fosse intuitiva e orientada à tomada de decisão.
 
-![Protótipo visual no Figma](./exemplo%20de%20planeamento%20das%20sessoes.png)
+
 
 ## 🔍 Construção da análise e visualização de dados
 
