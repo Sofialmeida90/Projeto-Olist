@@ -60,7 +60,14 @@ Construi o painel no Power BI focando na clareza e interatividade. Para enriquec
 🔗 [Base de dados – Kaggle: Olist Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ## Dashboard – Análise de Vendas da Olist
-<img src="1.png" alt="Análise Geral" width="800">
+<img src="Projeto BI com alteração - Olist - ANA ALMEIDA_page-0001.jpg" alt="Análise Geral" width="800">
 </p>
 
+<img src="Projeto BI com alteração - Olist - ANA ALMEIDA_page-0002.jpg" alt="Encomendas" width="800">
+</p>
 
+<img src="Projeto BI com alteração - Olist - ANA ALMEIDA_page-0003.jpg" alt="Pagamento/Clientes" width="800">
+</p>
+
+<img src="Projeto BI com alteração - Olist - ANA ALMEIDA_page-0004.jpg" alt="Report" width="800">
+</p>
