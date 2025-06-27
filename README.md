@@ -60,14 +60,23 @@ Construi o painel no Power BI focando na clareza e interatividade. Para enriquec
 🔗 [Base de dados – Kaggle: Olist Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ## Dashboard – Análise de Vendas da Olist
+
+O Dashboard inicia com uma apresentação geral das vendas, nomeadamente, vendas por ano e mês, previsão de vendas nos próximos 3 anos, vendas por região, estado e cidade e vendas por categorias.
+O dashboard está organizado com a segmentação de ano, mês, estado Brasil e Categoria de produto, caso seja necessário analisar algo mais detalhado em qualquer um dos dados.
 <img src="Projeto BI com alteração - Olist - ANA ALMEIDA_page-0001.jpg" alt="Análise Geral" width="800">
 </p>
+
+A seguinte página mostra os indicadores mais relacionados com as encomendas, nomeadamente, tempos de entrega, número de encomendas em espaço temporal, entre outros.
 
 <img src="Projeto BI com alteração - Olist - ANA ALMEIDA_page-0002.jpg" alt="Encomendas" width="800">
 </p>
 
+A seguinte página mostra os indicadores relacionados com pagamentos, nomeadamente o tipo de pagamento e a diferença entre os pagamentos e as vendas que a empresa teve. Também mostra a quantidade de clientes por região, assim como os vendedores por estado.
+
 <img src="Projeto BI com alteração - Olist - ANA ALMEIDA_page-0003.jpg" alt="Pagamento/Clientes" width="800">
 </p>
+
+E por último temos uma página resumo que engloba as informações gerais das encomendas caso seja necessário fazer uma outra análise que não foi feita.
 
 <img src="Projeto BI com alteração - Olist - ANA ALMEIDA_page-0004.jpg" alt="Report" width="800">
 </p>
