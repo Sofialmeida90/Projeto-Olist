@@ -1,31 +1,66 @@
-# Projeto-Olist
+# 🛍️ Projeto Final – Análise de E-commerce Brasileiro (Olist)
 
-# 📊 Projeto de Business Intelligence – Análise do Marketplace Olist
+Este projeto foi desenvolvido como parte da UFCD 10804 – Projeto de Business Intelligence. Utilizando uma base de dados real da plataforma Olist (disponível no Kaggle), o objetivo foi criar um dashboard analítico no Power BI que oferecesse insights estratégicos sobre vendas, logística e comportamento do consumidor.
 
-Este repositório apresenta o desenvolvimento de um projeto completo de Business Intelligence, realizado no âmbito da UFCD 10804. O trabalho teve como objetivo transformar dados brutos do e-commerce brasileiro Olist em insights estratégicos, por meio da modelagem de dados, construção de um dashboard analítico e interpretação dos principais indicadores de desempenho.
+---
 
-## 🔹 Etapa de Planeamento: estruturação antes da ação
+## 🎯 Objetivo do Projeto
 
-Antes de mergulhar na análise em si, realizei uma fase de planeamento que foi fundamental para garantir coerência e clareza em todas as decisões tomadas ao longo do projeto. Comecei pela delimitação do escopo: o foco seria compreender o comportamento de vendas online no Brasil entre 2016 e 2018, analisando fatores como volume de pedidos, formas de pagamento, satisfação dos clientes e desempenho logístico.
+Desenvolver um painel de Business Intelligence interativo que permita acompanhar o desempenho de vendas da Olist, identificar gargalos e oportunidades, e apoiar a tomada de decisão estratégica com base em dados reais de e-commerce.
 
-Para isso, elaborei um documento de projeto que consolidava todos os pontos essenciais da fase inicial. Nele, defini os objetivos principais, estabeleci os indicadores a serem acompanhados e produzi um dicionário de dados com a descrição dos campos mais relevantes, como identificação dos pedidos, categorias de produto, valores de pagamento e avaliações dos consumidores.
+---
 
-Além disso, recorri à ferramenta Figma para criar um protótipo visual do dashboard. Esse passo foi importante para pensar na disposição e hierarquia das informações desde o início, garantindo que a apresentação dos dados fosse intuitiva e orientada à tomada de decisão.
+## 🗂️ Etapas Realizadas
+
+### 1. Planeamento do Projeto
+
+Iniciei o trabalho com um planejamento estruturado, definindo objetivos, prazos, entregas e recursos necessários. Essa etapa foi essencial para guiar todas as fases do projeto com clareza e foco.
+
+### 2. Elaboração do Documento de Projeto
+
+Elaborei um documento técnico contendo:
+- **Âmbito do Projeto**: definição dos limites e objetivos da análise;
+- **Dicionário de Dados**: descrição dos campos, tabelas e relações no modelo de dados;
+- **Protótipo Inicial**: criação de um wireframe de forma manual, antecipando o layout e os elementos visuais do painel no Power BI, para aceite da direção.
+
+### 3. Modelagem e Análise de Dados
+
+A análise prática começou com a importação dos arquivos CSV no Power BI. Modelei os dados com base em uma estrutura estrela, relacionando tabelas fato e dimensão. Em seguida, criei medidas DAX para compor os principais KPIs, incluindo:
+
+- Receita Total
+- Número de Pedidos
+- Ticket Médio por Pedido
+- Tempo Médio de Entrega
+- Avaliação Média dos Clientes
+- Receita por Categoria e Região
+
+### 4. Criação do Dashboard e Design Visual
+
+Construi o painel no Power BI focando na clareza e interatividade. Para enriquecer a apresentação, desenvolvi um fundo personalizado no **Figma**, integrando elementos visuais que reforçam a identidade da Olist e melhoram a experiência do usuário.
+
+---
+
+## 📈 Insights Obtidos
+
+- Regiões e categorias com maior volume de vendas;
+- Impacto do tempo de entrega na satisfação dos clientes;
+- Análise de sazonalidade e evolução mensal das vendas;
+- Comportamento de pagamento dos consumidores.
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+
+- Power BI Desktop  
+- DAX  
+- Excel  
+- Figma  
+- Kaggle  
+
+🔗 [Base de dados – Kaggle: Olist Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+## Dashboard – Análise de Vendas da Olist
+<img src="1.png" alt="Análise Geral" width="800">
+</p>
 
 
-
-## 🔍 Construção da análise e visualização de dados
-
-Com o planeamento concluído, iniciei a fase de construção no Power BI. O modelo de dados foi estruturado com tabelas relacionadas entre pedidos, clientes, produtos, pagamentos e vendedores. Essa organização permitiu criar medidas dinâmicas e aplicar filtros cruzados com facilidade.
-
-O dashboard resultante é composto por indicadores-chave de desempenho (KPIs) que incluem o total de pedidos, receita total, ticket médio, tempo médio de entrega com e sem atraso, além da média de avaliações dos clientes. As visualizações foram pensadas para oferecer respostas rápidas a perguntas como: "Qual região tem maior volume de vendas?", "Qual a forma de pagamento mais utilizada?", "Há impacto do atraso na entrega na avaliação do cliente?"
-
-Durante a exploração dos dados, identifiquei padrões relevantes. Por exemplo, o cartão de crédito foi disparadamente a forma de pagamento mais comum, e os pedidos com atraso tiveram uma média de avaliação significativamente inferior aos demais. Também foi possível observar que determinadas regiões apresentavam maior tempo médio de entrega, o que pode sinalizar gargalos logísticos.
-
-## 📌 Reflexões e valor do projeto
-
-Mais do que um exercício técnico, este projeto foi uma oportunidade para aplicar, de forma integrada, os conhecimentos de modelação, análise e storytelling com dados. Desde a estruturação conceitual até a apresentação visual, todas as etapas foram conduzidas com foco em gerar valor informacional.
-
-Ao documentar esse processo aqui no GitHub, pretendo demonstrar minha capacidade de conduzir projetos de Business Intelligence de ponta a ponta, unindo visão estratégica, capacidade analítica e domínio de ferramentas como Power BI e Figma.
-
-🔗 **Repositório:** [https://github.com/Sofialmeida90/Projeto-Olist](https://github.com/Sofialmeida90/Projeto-Olist)
